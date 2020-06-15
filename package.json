@@ -1,0 +1,23 @@
+{
+  "name": "xrvuecli",
+  "version": "1.0.0",
+  "description": "拉取在github上的vue项目模板",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yangw",
+  "license": "MIT",
+  "bin": {
+    "xrd": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.1.0",
+    "log-symbols": "^4.0.0",
+    "ora": "^4.0.4"
+  }
+}
